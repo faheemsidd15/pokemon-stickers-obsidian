@@ -3,8 +3,8 @@
   "name": "Pokémon Stickers",
   "version": "1.0.0",
   "minAppVersion": "1.3.0",
-  "description": "Automatically assigns a random Pokémon sticker to each new note.",
-  "author": "Faheem Siddiqui",
-  "authorUrl": "https://github.com/faheemsidd15/pokemon-stickers-obsidian",
+  "description": "Assign a random Pokémon sticker to each new note.",
+  "author": "Faheem Siddiqui <faheemsidd15@gmail.com>",
+  "authorUrl": "https://github.com/faheemsidd15",
   "isDesktopOnly": false
 }
