@@ -1,0 +1,14 @@
+/* Hide metadata (frontmatter) except tags in Reading Mode */
+.markdown-preview-view .metadata-property {
+  display: none;
+}
+
+/* Keep only the tags visible */
+.markdown-preview-view .metadata-property[data-property-key="tags"] {
+  display: flex !important;
+}
+
+.metadata-container .metadata-show-source-button,
+.metadata-container .metadata-add-button {
+  display: none;
+}

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "Node16",
+    "target": "ESNext",
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "moduleResolution": "Node16",
+    "strict": true,
+    "types": ["node", "vite/client"]
+  }
+}
