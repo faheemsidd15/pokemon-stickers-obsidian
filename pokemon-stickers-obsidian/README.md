@@ -8,7 +8,7 @@ Extract the ZIP file anywhere on your computer.
 Open Obsidian and go to Settings ⚙️ → Community Plugins.
 Click "Turn on Community Plugins" (if it's your first time).
 Click "Open plugin folder".
-Copy the pokemon-sticker-plugin folder into your Obsidian plugins directory.
+Copy the pokemon-stickers plugin folder into your Obsidian plugins directory.
 Restart Obsidian, go to Settings → Community Plugins, and enable "Pokémon Sticker Plugin".
 2️⃣ Included Sample Obsidian Vault (Optional)
 Inside this ZIP, you'll find a sample Obsidian workspace that demonstrates the plugin in action:
