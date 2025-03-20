@@ -8,3 +8,76 @@
   margin: 0 auto;
   border-radius: 10px;
 }
+
+.pokemon-sticker {
+  margin-right: 8px;
+}
+
+/* Dynamic display classes */
+.pokemon-sticker--block {
+  display: block;
+}
+
+.pokemon-sticker--inline-block {
+  display: inline-block;
+}
+
+/* Sticker image default styles and loading state */
+.pokemon-sticker img {
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.pokemon-sticker img.loaded {
+  opacity: 1;
+}
+
+/* Hover bounce animation */
+.pokemon-sticker:hover img {
+  animation: bounce 0.5s ease;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pokemon-sticker-img--clickable {
+  cursor: pointer;
+}
+
+.pokemon-sticker-img--disabled {
+  cursor: default;
+}
+
+/* Modal styling */
+.pokemon-sticker-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  z-index: 1000;
+}
+
+/* Modal button common styles */
+.pokemon-sticker-modal-button {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #fff;
+}
